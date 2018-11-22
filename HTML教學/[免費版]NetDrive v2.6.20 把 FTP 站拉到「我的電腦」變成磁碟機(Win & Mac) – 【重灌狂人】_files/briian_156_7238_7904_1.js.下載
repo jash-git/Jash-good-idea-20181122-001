@@ -1,0 +1,30 @@
+(function (window) {
+    'use strict';
+    var id = 'briian_156_7238_7904_1_script',
+        scupioContent = document.getElementById(id),
+        ins = document.createElement('ins'),
+        script = document.createElement('script'),
+        pre = 'data-sca-',
+        scupioexpandable = window.scupioexpandable,
+        Scupioads = window.Scupioads = window.Scupioads || [],
+        i;
+    // get call back function which is on publisher's website
+    if (scupioexpandable) {
+        i = scupioexpandable.length - 1;
+        while (i >= 0) {
+            Scupioads.push(scupioexpandable.pop());
+            i -= 1;
+        }
+    }
+    ins.id = id;
+    ins.className = 'scupioadslot';
+    ins.setAttribute(pre + 'pub', 'lQkeHwo/Sw==');
+    ins.setAttribute(pre + 'cid', '7904');
+    ins.setAttribute(pre + 'web', '156');
+    ins.setAttribute(pre + 'category', '17');
+    ins.setAttribute(pre + 'type', 'video');
+    scupioContent.appendChild(ins);
+    script.async = true;
+    script.src = '//img.scupio.com/js/ad.js';
+    scupioContent.appendChild(script);
+}(window));

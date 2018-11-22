@@ -1,0 +1,11 @@
+(function (w, s, c) {
+    'use strict';
+    s = w.Scupioads = w.Scupioads || [];
+    c = s.config = s.config || {};
+    c[10996] = {
+        slotType: 'STA',
+        rp: 0,
+        origin: 'briian.com',
+        '300x250': { bids: [ { bidder: 'bridgewell', params: { ChannelID: 'CgUxMDk5NhICMTcaAzE1NiIGYnJpaWFuKgsIrAIQ-gEaATkgATAA', cpmWeight: 1 } },{ bidder: 'criteo', params: { zoneId: 955864 } },{ bidder: 'rtbhouse', params: { publisherId: '873yT9t9EaZlQstTgcj6', region: 'prebid-asia' }  },{ bidder: 'ucfunnel', params: { adid: 'ad-D233236877EB444B0D7E33828A4ABB3D' } } ] }
+    };
+}(window));
